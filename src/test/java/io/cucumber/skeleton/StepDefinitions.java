@@ -10,12 +10,12 @@ public class StepDefinitions {
     }
     
     
-   @When("I wait {int} hour")
+   @Given("I wait {int} hour")
     public void i_wait_hour(Integer int1) {
         // Write code here that turns the phrase above into concrete actions
         
     }
-    @Then("my belly should growl")
+    @Given("my belly should growl")
     public void my_belly_should_growl() {
         // Write code here that turns the phrase above into concrete actions
         
